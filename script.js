@@ -73,6 +73,9 @@ function displayCatHeart() {
         imageContainer.appendChild(catHeartImage);
         // Hide the options container
         document.getElementById('options').style.display = 'none';
+        setTimeout(function() {
+            window.location.href = 'index0.html';
+        }, 2000);
     };
 }
 
